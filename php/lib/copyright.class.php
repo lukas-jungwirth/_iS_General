@@ -1,11 +1,11 @@
 <?php
 //adds copyright and copyright style field to media library
 
-class iS_Images_Copyright {
+class iS_General_Copyright {
 	public $config = null;
 
 	public function __construct() {
-		$this->config = iS_Images_Config::get_instance();
+		$this->config = iS_General_Config::get_instance();
 
 		add_filter("attachment_fields_to_save", array($this, "add_copyright_field_to_media_uploader_save"), null, 2);
 		add_filter("attachment_fields_to_edit", array($this, "add_copyright_field_to_media_uploader"), null, 2);
@@ -240,4 +240,4 @@ class iS_Images_Copyright {
 
 		return $html;
 	} // add_copyright_media_send_to_editor()
-} // iS_Images_Copyright()
+} // iS_General_Copyright()

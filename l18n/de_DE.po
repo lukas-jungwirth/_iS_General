@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: iS_File_Manager\n"
+"Project-Id-Version: iS_General\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-24 11:27+1000\n"
 "PO-Revision-Date: 2023-10-24 11:27+1000\n"
@@ -15,6 +15,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 2.0.7\n"
 "X-Poedit-SearchPath-0: .\n"
+
+msgid "Activate iService Modules"
+msgstr "iService Module aktivieren"
+
+msgid "Activate Module"
+msgstr "Modul aktivieren"
+
+msgid ""
+msgstr ""
 
 msgid ""
 msgstr ""
